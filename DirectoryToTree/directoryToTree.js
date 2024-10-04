@@ -23,7 +23,4 @@ function directoryToTree(rootDir, depth) {
     return buildTree(path.resolve(process.cwd(), rootDir), depth);
 }
 
-// const tree = directoryToTree('dummy_dir', 1);
-// console.log(JSON.stringify(tree, null, 2));
-
 module.exports = directoryToTree;
