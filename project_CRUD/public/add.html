@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/add.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <h2>Add New Products</h2>
+        <button class="btn" onclick="window.location.href='index.html'">Back</button>
+    </header>
+
+    <main>
+        <form class="form" id="form">
+            <div class="input-group">
+                <label for="title">Product Title</label>
+                <input type="text" class="title" name="title" placeholder="Product Title" required />
+            </div>
+            <div class="input-group">
+                <label for="company">Company Name</label>
+                <input type="text" class="company" name="company" placeholder="Company Name" required />
+            </div>
+            <div class="input-group">
+                <label for="price">Price</label>
+                <input type="number" class="price" name="price" placeholder="Price" required />
+            </div>
+            <div class="input-group">
+                <label for="date">Date</label>
+                <input type="date" class="date" name="date" placeholder="Date" required />
+            </div>
+            <div class="input-group">
+                <label for="imageUrl">Image URL</label>
+                <input type="text" class="imageUrl" name="imageUrl" placeholder="Image URL" required />
+            </div>
+            <button class="btn" type="submit">Add Product</button>
+        </form>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+            <p>Code By <a href="https://github.com/Ratified" target="_blank">George Kamunge</a> &copy; 2024</p>
+        </div>
+    </footer>
+
+    <script src="./js/add.js"></script>
+</body>
+</html>
